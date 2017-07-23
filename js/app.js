@@ -3,33 +3,33 @@ var app = angular.module('mainApp', ['ngRoute']);
 app.config(function($routeProvider) {
 
     $routeProvider.when('/', {
-      templateUrl : 'pages/home.html',
+      templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/home.html',
       controller : 'home',
       controllerAs: 'home'
     }).when('/projects', {
-      templateUrl : 'pages/projects.html',
+      templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects.html',
       controller : 'projects',
       controllerAs: 'projects'
     }).when('/about', {
-    	templateUrl : 'pages/about-me.html',
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/about-me.html',
     	controller : 'about',
     	controllerAs : 'about'
     }).when('/education', {
-    	templateUrl : 'pages/education.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/education.html'
     }).when('/project/blue-spa-webapp', {
-    	templateUrl : 'pages/projects/blue-spa.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/blue-spa.html'
     }).when('/project/jb-webapp', {
-    	templateUrl : 'pages/projects/jb-webapp.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/jb-webapp.html'
     }).when('/project/ttb-webapp', {
-    	templateUrl : 'pages/projects/ttb-webapp.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/ttb-webapp.html'
     }).when('/project/ww-webapp', {
-    	templateUrl : 'pages/projects/ww-webapp.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/ww-webapp.html'
     }).when('/project/cipher-app', {
-    	templateUrl : 'pages/projects/text-file-cipher-app.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/text-file-cipher-app.html'
     }).when('/project/mysql-manager-app', {
-    	templateUrl : 'pages/projects/mysql-db-manager-app.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/mysql-db-manager-app.html'
     }).when('/project/card-games-app', {
-    	templateUrl : 'pages/projects/poker-blackjack-app.html'
+    	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/blue-spa.htmlpoker-blackjack-app.html'
     })
     .otherwise('/');
 
