@@ -2,7 +2,7 @@ var app = angular.module('mainApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
 
-    $routeProvider.when('/', {
+    $routeProvider.when('/portfolio/', {
       templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/home.html',
       controller : 'home',
       controllerAs: 'home'
@@ -31,7 +31,7 @@ app.config(function($routeProvider) {
     }).when('/project/card-games-app', {
     	templateUrl : 'https://raw.githubusercontent.com/blue2525989/portfolio/master/pages/projects/blue-spa.htmlpoker-blackjack-app.html'
     })
-    .otherwise('/');
+    .otherwise('/portfolio/');
 
 });
 
